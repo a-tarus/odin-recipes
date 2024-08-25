@@ -1,0 +1,14 @@
+
+.meal {
+    list-style-type: '- '; 
+    text-transform: bold;
+}
+
+.recipes {
+    text-indent: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
