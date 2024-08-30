@@ -13,12 +13,52 @@ h1 {
     text-align: center;
     font-size: 2rem;
     background-color: lightblue;
+    color: darkblue; 
+    text-align: center;
 }
 
 h2 {
-    color: rgb(65, 65, 243);
+    color: crimson;
 }
 
 div {
     background-color: lightgray;
+}
+
+img {
+    width: 25rem; 
+    height: 25; 
+    margin-left: 5rem; 
+}
+
+.main {
+    border: 2px solid black;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    border: 10px solid darkblue;    
+}
+
+.container {
+    /*display: flex;
+    align-items: flex-start;*/
+}
+
+.container1 {
+    /*flex: 1;
+    background-color: lightgreen;*/    
+}
+
+.container2 { 
+   /* background-color: lightcoral;*/
+}
+
+.container3 {
+    order: -1;
+    background-color: lightyellow;    
 }
