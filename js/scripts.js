@@ -1,9 +1,6 @@
-let firstname = "John";
-let surname = "Doe";
+var button = document.querySelector('button');
+var box = document.getElementById('changeMe');
 
-console.log(firstname);
-console.log(surname);
-
-let age = 30;
-
-console.log(age);
+function changeColor() { 
+    box.style.background = 'green';
+}
