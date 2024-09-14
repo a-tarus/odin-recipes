@@ -111,3 +111,33 @@ console.log(person.name);
 console.log(person.hasOwnProperty("name"));
 console.log(person.hasOwnProperty("age"));
 console.log(person.address.city); */
+
+// Booleans
+
+/*var isAdult = true;
+
+console.log(isAdult);
+
+if (isAdult) {
+    console.log("You are an adult.");
+    } else {
+    console.log("You are not an adult.");
+    }
+*/
+
+// Array functions
+
+/*var names = [
+    "John", 
+    "Doe", 
+    "Test", 
+    "Tom"]
+
+console.log(names);
+console.log("Size = " + names.length);
+console.log(names[0]);
+
+//replacing index 0 with new key value of string 'Jane'
+names[0] = "Jane";
+//the following adds 'Jane' to the array and ignores 'John'
+console.log(names);*/
