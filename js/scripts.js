@@ -141,3 +141,39 @@ console.log(names[0]);
 names[0] = "Jane";
 //the following adds 'Jane' to the array and ignores 'John'
 console.log(names);*/
+
+/* Embedded Java Script */
+
+//console.log("Embedded Java Script + " + `${person.name} ` + `${person.lastName} `);
+
+
+/* Conditions */
+
+var num = 7;
+
+if (num > 5) {
+    console.log("Number is greater than 5");
+} else if (num < 5) {
+    console.log("Number is less than 5");
+}
+
+if ( num > 10) {
+    console.log("Number is not greater than 10");
+} else if (num < 9)
+    console.log("Number is less than 7");
+
+// Functions     
+
+function troubleshooting() {
+        const a = 1;
+        const b = 1;
+    
+        let result;
+    
+        result = "a" + "b";
+    
+        return result;
+    }
+    
+// Call the function and print the result
+console.log(troubleshooting());     
