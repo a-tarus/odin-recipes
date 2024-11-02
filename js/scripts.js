@@ -164,16 +164,38 @@ if ( num > 10) {
 
 // Functions     
 
-function troubleshooting() {
+/* function troubleshooting() {
         const a = 1;
         const b = 1;
     
         let result;
     
-        result = "a" + "b";
+        result = a + b;
     
         return result;
     }
     
 // Call the function and print the result
-console.log(troubleshooting());     
+console.log(troubleshooting());  */    
+
+/**
+ * The code below tells the browser to ask you for a number
+ * then if that number is `6`, it returns `true` otherwise it returns `false`
+ * 
+ * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
+ */
+
+number = 'h';
+
+function numberChecker() {
+	if(number >= 10) {
+		return true;
+	} else if(number <= 10) {
+		return false;
+	} else {
+        console.log("Error: Invalid input. Please enter a number.");
+        return false;
+    }
+}
+
+console.log(numberChecker());
